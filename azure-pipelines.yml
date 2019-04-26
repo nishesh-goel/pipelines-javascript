@@ -25,5 +25,4 @@ steps:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
 - task: PublishPipelineArtifact@0
-  inputs:
-    targetPath: 'System.DefaultWorkingDirectory'
+ 
