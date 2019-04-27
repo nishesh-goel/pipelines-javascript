@@ -42,5 +42,5 @@ steps:
   inputs:
     awsCredentials: 'd0fc1583-0311-4ef1-9418-1f19a3121705'
     regionName: 'us-east-1'
-    awsCommand: '~/my-app$ eb create my-env'
+    awsCommand: '~/SampleNodeApplication-env $ eb create SampleNodeApplication-env pipelines-java'
  
