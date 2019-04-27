@@ -43,5 +43,5 @@ steps:
     regionName: 'us-east-1'
     bucketName: 'nishesh-goel-pipeles-javascript'
     sourceFolder: '$(Build.ArtifactStagingDirectory)'
-    targetFolder: 'nishesh-goel-pipelines-javascript'
+    targetFolder: 'nishesh-goel-pipeles-javascript'
     createBucket: true
