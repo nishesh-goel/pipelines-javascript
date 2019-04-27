@@ -42,6 +42,6 @@ steps:
     awsCredentials: 'd0fc1583-0311-4ef1-9418-1f19a3121705'
     regionName: 'us-east-1'
     bucketName: 'nishesh-gorl-pipeles-javascript'
-    sourceFolder: '$(Build.AetifactsStagingFirectory)'
+    sourceFolder: '$(Build.ArtifactStagingDirectory)'
     targetFolder: 'nishesh-goel-pipelines-javascript'
     createBucket: true
