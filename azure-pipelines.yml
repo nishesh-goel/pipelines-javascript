@@ -37,10 +37,11 @@ steps:
     #targetPath: # Required when publishLocation == FilePath
     #parallel: false # Optional
     #parallelCount: # Optional
-- task: BeanstalkDeployApplication@1
+- task: S3Upload@1
   inputs:
     awsCredentials: 'd0fc1583-0311-4ef1-9418-1f19a3121705'
     regionName: 'us-east-1'
-    applicationName: 'piplelines-javascript'
-    environmentName: 'piplelines-javascript'
-    applicationType: 'version'
+    bucketName: 'nishesh-gorl-pipeles-javascript'
+    sourceFolder: '$(Build.AetifactsStagingFirectory)'
+    targetFolder: 'nishesh-goel-pipelines-javascript'
+    createBucket: true
